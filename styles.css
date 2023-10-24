@@ -36,7 +36,7 @@ header {
 
 .header-nav-list {
     height: 50px;
-    width: 584px;
+    width: 600px;
     float: right;
     margin-right: 88px;
     margin-top: 20px;
@@ -46,13 +46,53 @@ header {
 }
 
 .header-nav {
-    margin-left: 30px;
     display: inline;
     list-style-type: none;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 50px;
+    margin-left: 25px;
+}
+
+.welcome-background {
+    height: 600px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-welcome{
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 1440px;
+    position: relative;
+}
+
+.bacground-welcome-div {
+    height: 220px;
+    width: 600px;
+    background-color: black;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+.welcome-text {
+    height: 150px;
+    width: 520px;
+    flex-shrink: 0;
+    margin: 40px 35px;
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
