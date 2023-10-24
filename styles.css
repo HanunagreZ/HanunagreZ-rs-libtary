@@ -172,3 +172,213 @@ header {
     left: 686px;
     bottom: 40px;
 }
+
+.section-favorites {
+    width: 1440px;
+    height: 1440px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.favorites-text-title {
+    margin-top: 0px;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 640px;
+}
+
+.favorites-black-line {
+    position: absolute;
+    top: 80px;
+    left: 695px;
+}
+
+.favorites-pick-season {
+    margin-top: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    Width: 234px;
+    Height: 24px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+#radio-1, #radio-2, #radio-3, #radio-4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.favorites-winter {
+    position: absolute;
+    top: 185px;
+    left: 20px;
+}
+
+.favorites-spring {
+    position: absolute;
+    top: 185px;
+    left: 215px;
+}
+
+.favorites-summer {
+    position: absolute;
+    top: 185px;
+    left: 400px;
+}
+
+.favorites-autumn {
+    position: absolute;
+    top: 185px;
+    left: 610px;
+}
+
+.favorites-staff-eaters {
+    width: 550px;
+    height: 555px;
+    border: solid 1px black;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+.favorites-staff-cackle {
+    width: 550px;
+    height: 555px;
+    border: solid 1px black;
+    position: absolute;
+    top: 250px;
+    right: 60px;
+}
+
+.favorites-staff-dante {
+    width: 550px;
+    height: 555px;
+    border: solid 1px black;
+    position: absolute;
+    top: 845px;
+    left: 20px;
+}
+
+.favorites-staff-queen {
+    width: 550px;
+    height: 555px;
+    border: solid 1px black;
+    position: absolute;
+    top: 845px;
+    right: 60px;
+}
+
+.book-eaters-foto {
+    position: absolute;
+    bottom: -1px;
+    left: 390px;
+}
+
+.book-cackle-foto {
+    position: absolute;
+    bottom: -1px;
+    left: 390px;
+}
+
+.book-dante-foto {
+    position: absolute;
+    bottom: -1px;
+    left: 390px;
+}
+
+.book-queen-foto {
+    position: absolute;
+    bottom: -1px;
+    left: 390px;
+}
+
+.card-staff-text {
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.card-book-name{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+
+.card-book-description {
+    width: 355px;
+    height: 320px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+}
+
+.buy-button {
+    width: 75px;
+    height: 30px;
+    border: solid 1px black;
+    position: absolute;
+    top: 510px;
+    left: 20px;
+}
+
+.buy-button-text {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.own-button {
+    width: 75px;
+    height: 30px;
+    border: solid 1px #BB945F;
+    position: absolute;
+    top: 510px;
+    left: 20px;
+}
+
+.own-button-text {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #BB945F;
+}
