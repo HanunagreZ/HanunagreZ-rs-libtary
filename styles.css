@@ -103,7 +103,7 @@ header {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    background-color: peachpuff;
+    background-color: white;
     position: relative;
 }
 
@@ -176,7 +176,7 @@ header {
 .section-favorites {
     width: 1440px;
     height: 1440px;
-    background-color: grey;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -382,12 +382,13 @@ header {
     line-height: 12px;
     letter-spacing: 1px;
     color: #BB945F;
+    padding-left: 23px;
 }
 
 .section-coffeshop {
     width: 1440px;
     height: 840px;
-    background-color: slategray;
+    background-color: white;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -428,11 +429,9 @@ header {
 .coffee-tea-menu {
     width: 440px;
     height: 520px;
-    border: 1px solid black;
     position: absolute;
     left: 20px;
     top: 280px;
-     
 }
 
 .coffee-tea-title {
@@ -479,7 +478,6 @@ header {
 .desserts-cakes-menu {
     width: 440px;
     height: 520px;
-    border: 1px solid black;
     position: absolute;
     right: 20px;
     top: 280px;
@@ -527,7 +525,7 @@ header {
 .section-contacts {
     width: 1440px;
     height: 575px;
-    background-color: antiquewhite;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -647,7 +645,7 @@ header {
 .section-library-cards {
     width: 1440px;
     height: 620px;
-    background-color: cornsilk;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -724,7 +722,7 @@ header {
     position: absolute;
     margin-top: 0px;
     left: 80px;
-    top: 410px;
+    top: 425px;
     z-index: 1; 
 }
 
@@ -835,4 +833,128 @@ header {
     position: absolute;
     bottom: 120px;
     left: 40px;
+}
+
+footer {
+    height: 250px;
+    width: 1440px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.footer-text-adress {
+    position: absolute;
+    margin-top: 0px;
+    top: 20px;
+    left: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF;
+}
+
+.footer-text-mon-fr {
+    position: absolute;
+    margin-top: 0px;
+    top: 20px;
+    right: 20px;
+    float: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFF;
+}
+
+.footer-text-sat-sun {
+    position: absolute;
+    margin-top: 0px;
+    top: 70px;
+    right: 20px;
+    float: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFF;
+}
+
+.footer-twitter-logo {
+    position: absolute;
+    margin-top: 0px;
+    top: 78px;
+    left: 20px;
+}
+
+.footer-instagram-logo {
+    position: absolute;
+    margin-top: 0px;
+    top: 78px;
+    left: 60px;
+}
+
+.footer-facebook-logo {
+    position: absolute;
+    margin-top: 0px;
+    top: 78px;
+    left: 100px;
+}
+
+.footer-white-line {
+    position: absolute;
+    margin-top: 0px;
+    top: 140px;
+    left: 20px;
+}
+
+.footer-text-year {
+    position: absolute;
+    margin-top: 0px;
+    top: 186px;
+    left: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFF;
+}
+
+.footer-text-rs-school {
+    position: absolute;
+    margin-top: 0px;
+    top: 184px;
+    left: 570px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFF;
+}
+
+.footer-text-HanunagreZ {
+    position: absolute;
+    margin-top: 0px;
+    top: 186px;
+    right: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFF;
 }
