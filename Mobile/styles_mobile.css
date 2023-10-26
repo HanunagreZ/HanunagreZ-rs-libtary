@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 768px;
+    height: 90px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    display: inline-block;
+    margin: 20px;
+    font-family: Forum;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.burger-icon {
+    float: right;
+    margin: 35px 20px 35px 40px;
+}
+
+.profile-icon {
+    float: right;
+    margin: 31px 0;
+}
+
+.section-welcome {
+    width: 768px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    position: relative;
+}
+
+.section-welcome div {
+    background-color: black;
+    width: 600px;
+    height: 220px;
+    position: absolute;
+    top: 220px;
+}
+
+.section-welcome div p {
+    margin: auto;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 25%;
+}
